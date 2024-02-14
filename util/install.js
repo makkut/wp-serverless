@@ -1,3 +1,4 @@
+export const runtime = "edge"; // 'nodejs' (default) | 'edge'
 exports.validate = function (response) {
   if (
     !process.env["FQDBDIR"] &&
