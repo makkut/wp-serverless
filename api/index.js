@@ -1,4 +1,4 @@
-export const runtime = "edge"; // 'nodejs'
+export const runtime = "edge"; // 'nodejs' is the default
 const serverlesswp = require("serverlesswp");
 
 const { validate } = require("../util/install.js");
